@@ -1,0 +1,106 @@
+@media screen and (max-width: 767px) {
+     #mobileHidden{
+        display:none;
+    }
+    #ellipsis{
+        font-size: 1rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .teaser a.button{
+        max-width:   190px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        position: absolute;
+    }
+    .wp-image-11008{
+        display:none;
+    }
+    #alt-title{
+        margin-top: 55px !important;
+    }
+    #hub-nav {
+        visibility: hidden;
+        display: none;
+    }
+    #title{
+        font-size:1.7rem;       
+    }
+    #mobileNav{
+        display: block !important;
+    }
+    #hub-nav{
+        display:none;
+    }
+    .navbar{
+        position: fixed !important;
+    }
+    img{
+        width: 100%;
+    }
+    .bigEnough{
+        width: 60%;
+        margin-left: 22%;
+    }
+    .bigEnugg{
+        width: 50%;
+        margin-left: 25%;
+    }
+    #jumbotron {
+        height: 96%;
+        padding:62.195vw 5%;
+        margin-top:65px;
+    }
+/*        mobile footer*/
+    #copyright{
+            max-width: 100%;
+    }
+    #secP{
+        max-width: 65%;
+        width: 65%;
+    }
+    #thirdP{
+         max-width: 15%;
+        width: ;
+    }
+    /*todo new mobilecss file*/
+    .visibility-desktop{
+        display:none;
+    }
+    main{
+       margin-top: 65px !important;
+    }
+    .download{
+        width:85% !important;
+    }
+    .download.w85{
+        width:85% !important;
+    }
+    #articleList {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+    img.size-full{
+        width:35% !important;
+    }
+    img.size-medium{
+        width:80% !important;
+    }
+    img.aligncenter{
+        margin-bottom:20px;
+    }
+    img.bigEnugg{
+        width:35%;
+    }
+    .ml-auto {
+        margin-left: auto !important;
+    }
+}

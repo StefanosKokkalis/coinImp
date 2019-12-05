@@ -1,0 +1,19 @@
+{
+  "name": "coinTestApp",
+  "version": "1.0.0",
+  "description": "An app to test CoinImp and other cryptocurrency processes",
+  "main": "server/server.js",
+  "author": "Stefanos Kokkalis",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "http": "^0.0.0",
+    "jquery": "^3.4.1"
+  }
+}

@@ -1,0 +1,79 @@
+<link rel='stylesheet' href='/mobile.css'>
+<!--<script src="/modules/jquery/dist/jquery.min.js"></script>-->
+<script src="/modules/jquery/dist/jquery.min.js"></script>
+<nav class="navbar  navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/">
+        <h1 id='title'>Coin Imp App</h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id='navbarCollapse' class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/login">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/register">Register</a>
+            </li>
+<!--
+            <div id='mobileNav'>
+                <li>
+                    <a class="nav-link" href="/trade-finance">International Trade</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="/invoice-finance">Receivables</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="/currency">Currency &amp; FX</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="/freight-forwarding">Shipping</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="/export-finance">Export Finance</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="/blockchain">Blockchain</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="/legal">Legal</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="/risk-insurance">Risk &amp; Insurance</a>
+                </li>
+            </div>
+-->
+
+        </ul>
+    </div>
+</nav>
+<script>
+    $(document).ready(function() {
+        var previousScroll = 0;
+        var scroll = $(window).scrollTop();
+        if(scroll > 30){
+            $('.hub-navigation-w').css('position','fixed');
+            $('.hub-navigation-w').css('top','0');
+        }else if(scroll <=30){
+            $('.hub-navigation-w').css('position','relative');
+            $('.hub-navigation-w').css('top','-35');
+        }
+        $(window).scroll(function (event) {
+
+            var scroll = $(window).scrollTop();
+//        console.log(scroll);
+            if(scroll > 15){
+                $('.hub-navigation-w').css('position','fixed');
+                $('.hub-navigation-w').css('top','0');
+            }else if(scroll <=10){
+                $('.hub-navigation-w').css('position','relative');
+                $('.hub-navigation-w').css('top','-35');
+            }
+            previousScroll = scroll;
+        });
+
+    });
+
+</script>

